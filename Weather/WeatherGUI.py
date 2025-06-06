@@ -3,8 +3,8 @@ import requests
 from tkinter import ttk
 
 # API Key (Replace with your valid OpenWeather API Key)
-API_KEY = "78a1d66b8498f6592ed1978267b05f48"
-URL = "https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=78a1d66b8498f6592ed1978267b05f48"
+API_KEY = "YOUR API KEY"
+URL = "https://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=YOUR API KEY"
 
 class WeatherApp:
     def __init__(self, root):

@@ -12,7 +12,7 @@ class City:
 
     def get_data(self):
         try:
-            response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?units=metric&lat={self.lat}&lon={self.lon}&appid=78a1d66b8498f6592ed1978267b05f48")
+            response = requests.get(f"https://api.openweathermap.org/data/2.5/weather?units=metric&lat={self.lat}&lon={self.lon}&appid=YOUR API KEY")
 
         except:
             print("No internet connection :( ")
@@ -29,7 +29,7 @@ class City:
         print(f"Today's Low: {self.temp_min}° C")
 
 
-my_city = City("Resita",45.2998,21.8801)
+my_city = City("Romania",45.2998,21.8801)
 my_city.temp_print()
 
 
